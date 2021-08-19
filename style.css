@@ -3,13 +3,26 @@ body{
     color: #21727c;
     font-weight: 500;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 40px;
     text-align: justify;
 }
 
 h1{
     color: #d64933;
+    text-align: center;
+    font-size: 4em;
+    margin: 150px;
+    box-shadow: #00414b;
+    
+}
+
+h2{
+    font-size: 3em;
+}
+h4{
+    font-size: 2em; 
+    font-weight: 100;
     text-align: center;
 }
 
@@ -21,7 +34,7 @@ a{
 
 a:hover{
 color: #00414b;
-font-size: 26px;
+font-size: 30px;
 
 }
 
@@ -32,11 +45,12 @@ font-size: 26px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     text-align: justify;
+    align-items: center;
     margin: 20px;
 }
 #ignore:hover{
     color: #00414b;
-font-size: 20px;
+font-size: 24px;
 }
 
 strong{
@@ -51,7 +65,8 @@ p{
 }
 
 ul{
-    line-height: 25px;
+    line-height: 30px;
+    font-size: 20px;
 }
 
 #expList{
@@ -64,9 +79,20 @@ ul{
 }
 .intLinks{
     margin: 50px;
+    margin-right: 100px;
     text-decoration: none;
     color: #21727c;  
     font-weight: bolder;
     font-size: 24px;
-
+    text-align:  center;
+}
+#profilePic{
+    text-align: center;
+}
+.links{
+    align-items: center;
+    align-self: center;
+    align-tracks: center;
+    align-content: center;
+    text-align: center;
 }
